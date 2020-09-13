@@ -59,6 +59,7 @@ if (isset($_POST['submit'])) { //เมื่อกดsubmitจะเรีย�
             <button type="submit" name="submit" id="submit" class="btn btn-primary">Register</button>
         </form>
     </div>
+
     <!--เรียกใช้ajaxเพื่อส่งค่าไปที่checkuser_available.php เพื่อตรวจสอบว่ามีชื่อซ่ำในฐานข้อมูลหรือไม-->
     <script>
         function checkusername(val) {
